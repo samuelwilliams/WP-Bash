@@ -4,8 +4,8 @@ WordPress Website Bash Script
 Simple script to download the latest WordPress instance and put it into a folder called "public_html".
 
 ## Installation
-    $ git clone https://github.com/samuelwilliams/wp-bash.git
-    $ cp wp-bash/wp /usr/bin
+    $ git clone https://github.com/samuelwilliams/WP-Bash.git
+    $ cp WP-Bash/wp /usr/bin
 
 ## Usage
    $ wp
