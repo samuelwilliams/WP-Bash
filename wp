@@ -1,0 +1,7 @@
+#!/bin/bash
+[ -f latest.tar.gz ] && rm latest.tar.gz
+wget http://wordpress.org/latest.tar.gz
+tar xzvf ./latest.tar.gz
+rm ./latest.tar.gz
+mv wordpress public_html
+cp public_html/wp-config-sample.php public_html/wp-config.php
